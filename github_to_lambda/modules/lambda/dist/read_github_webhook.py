@@ -1,8 +1,11 @@
 import boto3
+import json
 
 def lambda_handler(event, context):
     sc = 200
     body = "Successfully Triggered a Lambda Function"
+
+    event = json.loads(event[u'body'])
 
     #If we want to do the whole organization, something like this:
     #if event.repository.owner.login == "rearc":
