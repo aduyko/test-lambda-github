@@ -4,4 +4,4 @@ Depends on there being a "github_token" variable set in lambda to authenticate w
 
 The actual function being run is somewhat arbitrary at this point and this is more of a proof of concept of lambda triggering github api events than anything.
 
-test pr update 4
+test pr update 5
